@@ -178,6 +178,7 @@ func (i *IngressController) listControlledIngresses(ctx context.Context) ([]netw
 }
 
 func (i *IngressController) attachFinalizer(ctx context.Context, ingress networkingv1.Ingress) error {
+	return nil
 	if stringSliceContains(ingress.Finalizers, IngressControllerFinalizer) {
 		return nil
 	}
