@@ -22,16 +22,16 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "0.0.1"
-home: https://github.com/STRRL/cloudflare-tunnel-ingress-controller
+home: https://github.com/roeidalm/cloudflare-tunnel-ingress-controller
 sources:
-  - https://github.com/STRRL/cloudflare-tunnel-ingress-controller
+  - https://github.com/roeidalm/cloudflare-tunnel-ingress-controller
 keywords:
   - cloudflare
   - cloudflare-tunnel
   - ingress
   - ingress-controller
 maintainers:
-  - name: STRRL
+  - name: roeidalm
     email: im@strrl.dev
 annotations:
   # Use this annotation to indicate that this chart version contains security updates, boolean string.
